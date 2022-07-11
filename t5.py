@@ -11,5 +11,5 @@ num_x1 = int(input('x1 = '))
 num_y1 = int(input('y1 = '))
 num_x2 = int(input('x2 = '))
 num_y2 = int(input('y2 = '))
-dist = ((num_x2 - num_x1) + (num_y2 - num_y1))**0.5
+dist = ((num_x2 - num_x1)**2 + (num_y2 - num_y1)**2)**0.5
 print(f'Pасстояние между точками с координатами ({num_x1},{num_y1}) и ({num_x2},{num_y2}) составляет {dist}')
